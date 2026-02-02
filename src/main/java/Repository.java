@@ -5,7 +5,7 @@ import java.util.List;
 //operations a repository must support.
 //<T extends Identifiable<String>> is a generic type parameter with a constraint.
 //Why the constraint? T must be a type that implements:Identifiable<String>
-//This guarantees:Every object stored in the repository has an ID,
+ //This guarantees:Every object stored in the repository has an ID,
 //The ID is a String, You can safely call item.getId() inside the repository
 
 public interface Repository<T extends Identifiable<String>>{

@@ -22,7 +22,7 @@ public class LibraryApp {
 		libraryService.addMember(patrick);
 
 		// CHECKOUT A BOOK
-		loanService.checkoutBook("l1", "b1", "m1");
+		loanService.checkoutBook("l1", "b1");
 
 		// PRINT LOAN DETAILS
 		Loan loan = loanService.getLoan("l1");
